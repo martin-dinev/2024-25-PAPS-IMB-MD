@@ -245,8 +245,9 @@ class ZadacaLavirint {
                     graph.addEdge(i + "," + j, i + "," + (j - 1));
                 }
             }
-        }graph.findPath(sr + "," + sk, er + "," + ek);
-         int rez = graph.shortestPath(sr + "," + sk, er + "," + ek);
+        }
+        graph.findPath(sr + "," + sk, er + "," + ek);
+        int rez = graph.shortestPath(sr + "," + sk, er + "," + ek);
         System.out.println(rez);
     }
 }
